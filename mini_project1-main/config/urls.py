@@ -21,6 +21,8 @@ urlpatterns = [
     # member urls
     path('admin/', admin.site.urls),
     path('member/', include('member.urls')),
+    path('chat/', include('chat.urls')),
+
 
     # board urls
         # board url
